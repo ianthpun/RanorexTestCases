@@ -1,0 +1,285 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/19/2014 9:29:27 AM"
+	timestampiso="2014-09-19T16:29:27"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="4996a37603d58d7"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="1"
+	totalblockedcount="3">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="UpdatePatient"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="5"
+		result="Failed"
+		duration="30.66s"
+		durationms="30663"
+		type="test suite"
+		rid="33773458d2895e4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="3">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="Login"
+			testcaseid="f992f6a4-569b-4430-a746-36f7c1893478"
+			maxchildren="0"
+			result="Success"
+			duration="5917ms"
+			durationms="5917"
+			type="test case"
+			rid="6e76e7cdbfed840"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="AdminIan"
+				moduleid="e33078ec-6a50-46c0-9b7d-31b70989304e"
+				moduletype="Recording"
+				result="Success"
+				duration="5892ms"
+				durationms="5892"
+				type="test module"
+				rid="122d82f11fdd0e0"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:00.132"
+					level="Info"
+					category="Website">
+						<message>
+							Opening web site 'https://neutron.plexia.local/emrwebtest3_modal/' with browser 'Chrome' in normal mode.
+						</message>
+						<metainfo
+						itemindex="0"
+						codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+						codeline="81"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:00.357"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName' at 42;10.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+						fullname="UpdatePatientRepository.PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName"
+						id="564a9280df994bf08e2ba336d07f8caf"
+						timeout="90000"
+						codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+						codeline="85"
+						itemindex="1"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:02.134"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence 'admin_{LShiftKey up}ian{Tab}' with focus on 'PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName'.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+						fullname="UpdatePatientRepository.PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName"
+						id="564a9280df994bf08e2ba336d07f8caf"
+						timeout="90000"
+						codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+						codeline="89"
+						itemindex="2"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:03.751"
+					level="Info"
+					category="Keyboard">
+						<message>
+							Key sequence 'plexiadev'.
+						</message>
+						<metainfo
+						itemindex="3"
+						codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+						codeline="93"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:04.862"
+					level="Info"
+					category="Mouse">
+						<message>
+							Mouse Left Click item 'PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.BtnLogin' at 21;8.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'btnLogin']"
+						fullname="UpdatePatientRepository.PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.BtnLogin"
+						id="cd037894b92246aa905210b3429d654a"
+						timeout="90000"
+						codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+						codeline="97"
+						itemindex="4"
+						loglvl="Info"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+			testcasename="PatientRecords"
+			testcaseid="35042ad3-c1c7-4027-be3b-e2538a6cdac1"
+			maxchildren="0"
+			result="Failed"
+			duration="24.72s"
+			durationms="24718"
+			type="test case"
+			rid="1afcd3ddbf58d54"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				modulename="CloseOutstanding"
+				moduleid="cbb516d6-8849-47ca-b7f0-b5ed6331323f"
+				moduletype="Recording"
+				result="Failed"
+				duration="24.71s"
+				durationms="24713"
+				type="test module"
+				rid="18e745a6f4b87f1a"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+					time="00:06.035"
+					level="Info"
+					category="Mouse"
+					errimg="images_UpdatePatient_20140919_092927\UpdatePatient_20140919_092927_163796b5_trace.jpg"
+					errthumb="images_UpdatePatient_20140919_092927\UpdatePatient_20140919_092927_163796b5_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'UtilitiesPlexiaEMREmrwebtest3Mod.Close' at 19;7.
+						</message>
+						<metainfo
+						type="repoitem"
+						path="/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']/?/?/button[@accessiblename='Close']"
+						fullname="UpdatePatientRepository.UtilitiesPlexiaEMREmrwebtest3Mod.Close"
+						id="b255f951093b41d38ebe463a5b1d3034"
+						timeout="60000"
+						codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\CloseOutstanding.cs"
+						codeline="81"
+						itemindex="0"
+						loglvl="Info"/>
+					</item>
+					<item
+					time="00:30.527"
+					level="Error"
+					category="User"
+					errimg="images_UpdatePatient_20140919_092927\UpdatePatient_20140919_092927_5bacd803_trace.jpg"
+					errthumb="images_UpdatePatient_20140919_092927\UpdatePatient_20140919_092927_5bacd803_trace_thumb.jpg">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+						loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+			testcasename="RandomPatient"
+			testcaseid="a5d3320d-d72b-4139-b447-f338c57547f9"
+			maxchildren="0"
+			result="Ignored"
+			duration="1ms"
+			durationms="1"
+			type="test case"
+			rid="8d56b272825f584"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1">
+				<params/>
+				<detail>
+				</detail>
+			</activity>
+			<activity
+			testcasename="PatientUpdate"
+			testcaseid="a88886e7-66e2-45e2-90d1-375435577ae4"
+			maxchildren="0"
+			result="Ignored"
+			duration="0ms"
+			durationms="0"
+			type="test case"
+			rid="865864c543b121f"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1">
+				<params/>
+				<detail>
+				</detail>
+			</activity>
+			<activity
+			testcasename="CloseBrowser"
+			testcaseid="41c8b8a8-0b94-4895-a614-88b954aa5215"
+			maxchildren="0"
+			result="Ignored"
+			duration="1ms"
+			durationms="1"
+			type="test case"
+			rid="6c6109cae837924"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="0"
+			totalblockedcount="1">
+				<params/>
+				<detail>
+				</detail>
+			</activity>
+		</activity>
+	</activity>
+</report>

@@ -1,0 +1,84 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/24/2014 5:05:24 PM"
+	timestampiso="2014-09-25T00:05:24"
+	module="CreateEncounter"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="efbaff7e32f8f73"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			CreateEncounter
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.219"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.ImgEncounters' at 102;16.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='menuframe']//img[#'imgEncounters']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.ImgEncounters"
+			id="66e704e7f96c468289a7d8387481fc01"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\CreateEncounter.cs"
+			codeline="81"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.496"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LinkEncounter' at 12;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkEncounter']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LinkEncounter"
+			id="01a56d7290a64f5e94a8de74039a145e"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\CreateEncounter.cs"
+			codeline="85"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.391"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.View' at 13;7.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'GVEncounter_ctl03_hlView']/img[@alt='View']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.View"
+			id="f58b8935466740a080f3bb4a7d733876"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\CreateEncounter.cs"
+			codeline="89"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

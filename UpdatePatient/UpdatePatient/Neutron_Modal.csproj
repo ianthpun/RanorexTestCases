@@ -1,0 +1,343 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{41F40BBA-757C-4441-9B27-79D9121B28C2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>UpdatePatient</RootNamespace>
+    <AssemblyName>Neutron_Modal</AssemblyName>
+    <RanorexVersion>5</RanorexVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <projectdefaultrepository>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="Ranorex.Core, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Flex, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Java, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Mobile, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.MozillaWeb, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Msaa, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Office, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.RawText, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Sap, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Web, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Win32, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.WinForms, Version=$(RanorexVersion)" />
+    <Reference Include="Ranorex.Plugin.Wpf, Version=$(RanorexVersion)" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminIan.cs">
+      <BoundTo>4fddcaba-bdf4-4a19-b1ec-d5e50961701e</BoundTo>
+      <DependentUpon>adminIan.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fdce430c-c1dd-458c-ade2-0822e4178c46</id>
+    </Compile>
+    <Compile Include="adminIan.UserCode.cs">
+      <BoundTo>4fddcaba-bdf4-4a19-b1ec-d5e50961701e</BoundTo>
+      <DependentUpon>adminIan.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dd3305a2-4930-4090-9710-756caf471562</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>546c33f6-ec6f-4032-87e9-58d492391348</id>
+    </Compile>
+    <Compile Include="Billing.cs">
+      <BoundTo>bed420d4-83d6-470f-9e59-e25caa348635</BoundTo>
+      <DependentUpon>Billing.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fd8cce53-8859-4aeb-abae-ff7f4bbb9c60</id>
+    </Compile>
+    <Compile Include="Billing.UserCode.cs">
+      <BoundTo>bed420d4-83d6-470f-9e59-e25caa348635</BoundTo>
+      <DependentUpon>Billing.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5c68c5b4-5e9d-4143-b826-64c62d231d17</id>
+    </Compile>
+    <Compile Include="ChangeAge.cs">
+      <BoundTo>6a82df60-5c69-47d1-ab6e-f8f994cf9fc3</BoundTo>
+      <DependentUpon>ChangeAge.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9a64a0c0-e60c-46fb-9e10-c95928f019aa</id>
+    </Compile>
+    <Compile Include="ChangeAge.UserCode.cs">
+      <BoundTo>6a82df60-5c69-47d1-ab6e-f8f994cf9fc3</BoundTo>
+      <DependentUpon>ChangeAge.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7bb8bd5f-5061-44bb-bc47-46e162555fff</id>
+    </Compile>
+    <Compile Include="Close.cs">
+      <BoundTo>3aabe0b9-9aa9-4ddf-abd9-6c521eed8399</BoundTo>
+      <DependentUpon>Close.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>09da8793-53d5-4376-aa39-118ec8b98cc9</id>
+    </Compile>
+    <Compile Include="Close.UserCode.cs">
+      <BoundTo>3aabe0b9-9aa9-4ddf-abd9-6c521eed8399</BoundTo>
+      <DependentUpon>Close.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a280d79c-8d33-4725-b52f-0bb6964a1456</id>
+    </Compile>
+    <Compile Include="CloseOutstanding.cs">
+      <BoundTo>3a61ead1-4533-473b-9ac6-3025e9f97d6c</BoundTo>
+      <DependentUpon>CloseOutstanding.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dd431bc2-5ca1-4d82-95b5-29b18ed34016</id>
+    </Compile>
+    <Compile Include="CloseOutstanding.UserCode.cs">
+      <BoundTo>3a61ead1-4533-473b-9ac6-3025e9f97d6c</BoundTo>
+      <DependentUpon>CloseOutstanding.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea6e97e5-0355-4130-a66f-8ca1252f9fc1</id>
+    </Compile>
+    <Compile Include="CreateEncounter.cs">
+      <BoundTo>45bc81b4-f4d6-46b7-9212-7abb3fceeb67</BoundTo>
+      <DependentUpon>CreateEncounter.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>df47b7ef-ba79-4970-b923-ca013d2da096</id>
+    </Compile>
+    <Compile Include="CreateEncounter.UserCode.cs">
+      <BoundTo>45bc81b4-f4d6-46b7-9212-7abb3fceeb67</BoundTo>
+      <DependentUpon>CreateEncounter.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0c4a57a5-1e5c-45ec-811d-c9a6d7e8990f</id>
+    </Compile>
+    <Compile Include="EncounterFeeCodeCheck.cs">
+      <BoundTo>c4db1162-c330-4533-8ff8-0717a721eea5</BoundTo>
+      <DependentUpon>EncounterFeeCodeCheck.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9d9e526c-a13f-4826-aa2a-ba8eed594746</id>
+    </Compile>
+    <Compile Include="EncounterFeeCodeCheck.UserCode.cs">
+      <BoundTo>c4db1162-c330-4533-8ff8-0717a721eea5</BoundTo>
+      <DependentUpon>EncounterFeeCodeCheck.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>345835cf-d785-4700-8ae8-aad8ac5f19a7</id>
+    </Compile>
+    <Compile Include="FeeCodeCheckMSP.cs">
+      <BoundTo>016ffc55-69bd-44df-91ab-81a733c0c13f</BoundTo>
+      <DependentUpon>FeeCodeCheckMSP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>18be5f58-05f1-4258-b285-400dcc03ef9b</id>
+    </Compile>
+    <Compile Include="FeeCodeCheckMSP.UserCode.cs">
+      <BoundTo>016ffc55-69bd-44df-91ab-81a733c0c13f</BoundTo>
+      <DependentUpon>FeeCodeCheckMSP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f9cc209d-ffab-4e53-bd5b-127fcde7b69a</id>
+    </Compile>
+    <Compile Include="Notes.cs">
+      <BoundTo>3f54715a-af05-40c8-8ebf-60682927818a</BoundTo>
+      <DependentUpon>Notes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96b0b128-d595-44b2-8eb6-1170e6c4995a</id>
+    </Compile>
+    <Compile Include="Notes.UserCode.cs">
+      <BoundTo>3f54715a-af05-40c8-8ebf-60682927818a</BoundTo>
+      <DependentUpon>Notes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f2484120-44ed-4290-a4ae-eddb43a7771b</id>
+    </Compile>
+    <Compile Include="NotesAlign.cs">
+      <BoundTo>11e91433-363b-471f-a431-10d11c83f029</BoundTo>
+      <DependentUpon>NotesAlign.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e1520464-d25e-46ee-adbd-280baf109eca</id>
+    </Compile>
+    <Compile Include="NotesAlign.UserCode.cs">
+      <BoundTo>11e91433-363b-471f-a431-10d11c83f029</BoundTo>
+      <DependentUpon>NotesAlign.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c99a37e8-f514-4321-aa6a-e60abffc9662</id>
+    </Compile>
+    <Compile Include="PatientRecords.cs">
+      <BoundTo>03b96903-281e-440c-b237-a027f979a4b6</BoundTo>
+      <DependentUpon>PatientRecords.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4462ff78-d5af-43b0-adb0-7dc9c171fb8a</id>
+    </Compile>
+    <Compile Include="PatientRecords.UserCode.cs">
+      <BoundTo>03b96903-281e-440c-b237-a027f979a4b6</BoundTo>
+      <DependentUpon>PatientRecords.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af7f0f16-5265-4fb2-9f94-0b7fac5efece</id>
+    </Compile>
+    <Compile Include="personalprofileupdate.cs">
+      <BoundTo>acb04bd4-acff-4a5f-8110-5a6d066e409e</BoundTo>
+      <DependentUpon>personalprofileupdate.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e9c4727e-7f7b-4dd2-8008-95731782cf57</id>
+    </Compile>
+    <Compile Include="personalprofileupdate.UserCode.cs">
+      <BoundTo>acb04bd4-acff-4a5f-8110-5a6d066e409e</BoundTo>
+      <DependentUpon>personalprofileupdate.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ba1b41c0-5db8-462d-bc56-6ef86cdc75df</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>41f39f3f-faae-4380-aa2e-47bfc0f3188c</id>
+    </Compile>
+    <Compile Include="SearchBarRandomPatient.cs">
+      <BoundTo>9309c985-71a7-4c1c-ab91-b9b474244e6f</BoundTo>
+      <DependentUpon>SearchBarRandomPatient.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>73a98874-60ea-44fa-a31c-44e488ae058b</id>
+    </Compile>
+    <Compile Include="SearchBarRandomPatient.UserCode.cs">
+      <BoundTo>9309c985-71a7-4c1c-ab91-b9b474244e6f</BoundTo>
+      <DependentUpon>SearchBarRandomPatient.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ad79e63-4a9a-45e2-a5b4-8235522b9024</id>
+    </Compile>
+    <Compile Include="ServiceTimeChangeFeeCodeCheckMSP.cs">
+      <BoundTo>c4cbf30c-1aad-4153-b958-899aa47d1254</BoundTo>
+      <DependentUpon>ServiceTimeChangeFeeCodeCheckMSP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7aa88897-b8ba-4fd9-9f0d-72780e65b77e</id>
+    </Compile>
+    <Compile Include="ServiceTimeChangeFeeCodeCheckMSP.UserCode.cs">
+      <BoundTo>c4cbf30c-1aad-4153-b958-899aa47d1254</BoundTo>
+      <DependentUpon>ServiceTimeChangeFeeCodeCheckMSP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6e6bf75c-8264-45fa-93c4-4b30abbd3944</id>
+    </Compile>
+    <Compile Include="UpdatePatientRepository.cs">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <DependentUpon>UpdatePatientRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>75f5d7e8-d19d-40a1-9d1e-65aaa2c6cd8c</id>
+    </Compile>
+    <Compile Include="Utilties.cs">
+      <BoundTo>67a25f08-ca12-4024-aa97-25a25307ab70</BoundTo>
+      <DependentUpon>Utilties.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b4c9da1-c43e-4e60-ba8a-633ac2cd59e7</id>
+    </Compile>
+    <Compile Include="Utilties.UserCode.cs">
+      <BoundTo>67a25f08-ca12-4024-aa97-25a25307ab70</BoundTo>
+      <DependentUpon>Utilties.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>37ea4c3d-47d1-4da1-9a1f-fa1a79163c06</id>
+    </Compile>
+    <None Include="adminIan.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>4fddcaba-bdf4-4a19-b1ec-d5e50961701e</id>
+    </None>
+    <Content Include="ages.xlsx">
+      <BoundTo>f3af1ce6-ef46-4702-81c4-27d07c710dcf</BoundTo>
+      <DependentUpon>UpdatePatient.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>bbdb320f-bdd5-4977-a4f3-29ff28de4b3b</id>
+    </Content>
+    <None Include="app.config">
+      <id>ffb86c5a-c0c2-47c3-ad91-87e97e58accc</id>
+    </None>
+    <None Include="Billing.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>bed420d4-83d6-470f-9e59-e25caa348635</id>
+    </None>
+    <Content Include="browsers.xlsx">
+      <BoundTo>f3af1ce6-ef46-4702-81c4-27d07c710dcf</BoundTo>
+      <DependentUpon>UpdatePatient.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>df48adca-86db-4091-95fc-0727f801e9a9</id>
+    </Content>
+    <None Include="ChangeAge.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>6a82df60-5c69-47d1-ab6e-f8f994cf9fc3</id>
+    </None>
+    <None Include="Close.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>3aabe0b9-9aa9-4ddf-abd9-6c521eed8399</id>
+    </None>
+    <None Include="CloseOutstanding.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>3a61ead1-4533-473b-9ac6-3025e9f97d6c</id>
+    </None>
+    <None Include="CreateEncounter.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>45bc81b4-f4d6-46b7-9212-7abb3fceeb67</id>
+    </None>
+    <None Include="EncounterFeeCodeCheck.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>c4db1162-c330-4533-8ff8-0717a721eea5</id>
+    </None>
+    <None Include="FeeCodeCheckMSP.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>016ffc55-69bd-44df-91ab-81a733c0c13f</id>
+    </None>
+    <None Include="Notes.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>3f54715a-af05-40c8-8ebf-60682927818a</id>
+    </None>
+    <None Include="NotesAlign.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>11e91433-363b-471f-a431-10d11c83f029</id>
+    </None>
+    <None Include="PatientRecords.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>03b96903-281e-440c-b237-a027f979a4b6</id>
+    </None>
+    <None Include="personalprofileupdate.rxrec">
+      <id>acb04bd4-acff-4a5f-8110-5a6d066e409e</id>
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+    </None>
+    <None Include="SearchBarRandomPatient.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>9309c985-71a7-4c1c-ab91-b9b474244e6f</id>
+    </None>
+    <None Include="ServiceTimeChangeFeeCodeCheckMSP.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>c4cbf30c-1aad-4153-b958-899aa47d1254</id>
+    </None>
+    <None Include="UpdatePatientRepository.rximg">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <DependentUpon>UpdatePatientRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>03544e74-0f00-4bc8-8fcc-35c04f039e76</id>
+    </None>
+    <None Include="UpdatePatientRepository.rxrep">
+      <id>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</id>
+      <repoid>7c519df9-ceae-4c00-bb1d-833ed6b79560</repoid>
+      <reporootid>87c65d34-3edb-4e7e-b5f7-ae9175948e72</reporootid>
+    </None>
+    <None Include="Utilties.rxrec">
+      <BoundTo>9DEE93B5-AD64-4C57-B955-2EDC9520AD26</BoundTo>
+      <id>67a25f08-ca12-4024-aa97-25a25307ab70</id>
+    </None>
+    <Content Include="UpdatePatient.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>cf764f93-29d7-472c-999c-1c4044aa9d8e</id>
+    </Content>
+    <Content Include="UpdatePatient.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>f3af1ce6-ef46-4702-81c4-27d07c710dcf</id>
+    </Content>
+  </ItemGroup>
+  <Import Condition="Exists('$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets')" Project="$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets" />
+</Project>

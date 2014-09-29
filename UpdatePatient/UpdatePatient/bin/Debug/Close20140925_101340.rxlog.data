@@ -1,0 +1,62 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/25/2014 10:13:45 AM"
+	timestampiso="2014-09-25T17:13:45"
+	module="Close"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="a7a9337fce8d648"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Close
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.230"
+		level="Info"
+		category="Mouse"
+		errimg=".\Close20140925_101340_5451f7b7_trace.jpg"
+		errthumb=".\Close20140925_101340_5451f7b7_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.Logout' at 33;46.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='topFrame']//img[#'logout']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.Logout"
+			id="387a35adfa874e19bd41f73f524ba6fa"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Close.cs"
+			codeline="81"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:07.965"
+		level="Error"
+		category="User"
+		errimg=".\Close20140925_101340_bdd3af63_trace.jpg"
+		errthumb=".\Close20140925_101340_bdd3af63_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

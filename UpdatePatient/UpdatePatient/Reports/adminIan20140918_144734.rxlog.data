@@ -1,0 +1,110 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/18/2014 2:47:37 PM"
+	timestampiso="2014-09-18T21:47:37"
+	module="AdminIan"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="de93a1a32103f7a"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			AdminIan
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.311"
+		level="Info"
+		category="Website">
+			<message>
+				Opening web site 'https://neutron.plexia.local/emrwebtest3_modal/' with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="81"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.426"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName' at 42;10.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+			fullname="UpdatePatientRepository.PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName"
+			id="564a9280df994bf08e2ba336d07f8caf"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="85"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.260"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'admin_{LShiftKey up}ian{Tab}' with focus on 'PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName'.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+			fullname="UpdatePatientRepository.PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.TxtUserName"
+			id="564a9280df994bf08e2ba336d07f8caf"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="89"
+			itemindex="2"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:03.627"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'plexiadev'.
+			</message>
+			<metainfo
+			itemindex="3"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="93"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.736"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.BtnLogin' at 21;8.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'btnLogin']"
+			fullname="UpdatePatientRepository.PLEXIAEMREmrwebtest3Modal.PlexiaMainFrame.BtnLogin"
+			id="cd037894b92246aa905210b3429d654a"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="97"
+			itemindex="4"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

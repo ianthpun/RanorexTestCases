@@ -1,0 +1,668 @@
+﻿<repository
+name="UpdatePatientRepository"
+id="7c519df9-ceae-4c00-bb1d-833ed6b79560"
+rxversion="5.1.2.19431">
+	<codegen
+	classname="UpdatePatientRepository"
+	namespace="UpdatePatient"/>
+	<rootfolder
+	name="Root"
+	id="87c65d34-3edb-4e7e-b5f7-ae9175948e72"
+	searchtimeout="0ms"
+	capname="unknown"
+	isrooted="True"
+	usecache="True">
+		<appfolder
+		name="PLEXIAEMRTest3Modal"
+		id="785ea004-1522-4869-986f-3f27b57b7427"
+		searchtimeout="30000ms"
+		capname="webdocument"
+		refpath="/dom[@domain='neutron.plexia.local']"
+		addcaps="container,webdocument"
+		isrooted="True"
+		usecache="False">
+			<folder
+			name="PlexiaMainFrame"
+			id="b4700ecb-2451-4fe2-bbe3-d88c01fb2110"
+			searchtimeout="30000ms"
+			capname="iframetag"
+			refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']"
+			addcaps="unknown,webelement,iframetag"
+			isrooted="True"
+			usecache="False">
+				<folder
+				name="LoginPage"
+				id="4ab37009-5e24-4ba2-b403-249f7d096789"
+				searchtimeout="30000ms"
+				capname="iframetag"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="BtnLogin"
+					id="cd037894-b922-46aa-9052-10b3429d654a"
+					searchtimeout="30000ms"
+					capname="inputtag"
+					refpath="/dom[@domain='neutron.plexia.local']/body/iframe[@id='PlexiaMainFrame']//input[#'btnLogin']"
+					addcaps="unknown,webelement,inputtag"
+					refimgid="3d05424a-ef13-4714-951a-1436dc47c3fe">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'btnLogin']
+					</item>
+					<item
+					name="TxtUserName"
+					id="564a9280-df99-4bf0-8e2b-a336d07f8caf"
+					searchtimeout="30000ms"
+					capname="inputtag"
+					refpath="/dom[@domain='neutron.plexia.local']/body/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+					addcaps="unknown,webelement,inputtag"
+					refimgid="ec1f0e31-902a-47e0-8a3a-e5746ff55375">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']
+					</item>
+					<basepath>
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']
+					</basepath>
+				</folder>
+				<folder
+				name="PersonalProfile"
+				id="a04c417e-00ad-425d-97d8-5e8ffaafe00e"
+				searchtimeout="30000ms"
+				capname="iframetag"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="TxtAddr1"
+					id="c8d252cf-db6a-4364-affb-8974cfd1c1c3"
+					searchtimeout="30000ms"
+					capname="inputtag"
+					refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//input[#'txtAddr1']"
+					addcaps="unknown,webelement,inputtag"
+					refimgid="9b81034d-ae71-4749-af52-b75bc0e72fcb">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtAddr1']
+					</item>
+					<item
+					name="BtnUpdatePatient"
+					id="2e9ca575-a47a-408e-8685-d824853ddc41"
+					searchtimeout="30000ms"
+					capname="inputtag"
+					refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//input[#'btnUpdatePatient']"
+					addcaps="unknown,webelement,inputtag"
+					refimgid="9f156295-327d-4d96-99fe-977372586182">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnUpdatePatient']
+					</item>
+					<basepath>
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']
+					</basepath>
+				</folder>
+				<folder
+				name="PatientRecords"
+				id="dc83be7f-7927-4e43-b338-6f3258fd26d4"
+				searchtimeout="30000ms"
+				capname="iframetag"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="LinkPersonal"
+					id="18281774-cdb5-4c8d-a495-74801ed43a99"
+					searchtimeout="30000ms"
+					capname="atag"
+					refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//a[#'linkPersonal']"
+					addcaps="unknown,webelement,atag"
+					refimgid="46b5be0d-fd5a-4c49-ad82-49fe12283abe">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkPersonal']
+					</item>
+					<item
+					name="LinkMedical"
+					id="babeb0da-e235-4339-8aa5-da0607bd35db"
+					searchtimeout="30000ms"
+					capname="atag"
+					refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//a[#'linkMedical']"
+					addcaps="unknown,webelement,atag"
+					refimgid="a3bf0bc9-170b-4f11-96e4-30eaaa463de6">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkMedical']
+					</item>
+					<item
+					name="ImgNotes"
+					id="2f8b9314-c3e3-475a-884c-0de00251da2d"
+					searchtimeout="30000ms"
+					capname="imgtag"
+					refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='' and @path='/emrwebtest3_modal/' and @browsername='IE']//iframe[#'PlexiaMainFrame']/body/iframe[@id='menuframe']//img[#'imgNotes']"
+					addcaps="unknown,webelement,imgtag"
+					refimgid="a02a0ec6-2a1a-4443-910e-d88c1bce223f">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='menuframe']//img[#'imgNotes']
+					</item>
+					<basepath>
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']
+					</basepath>
+				</folder>
+				<folder
+				name="MainMenu"
+				id="7ff87464-c618-4559-bd83-05147f054e0b"
+				searchtimeout="30000ms"
+				capname="iframetag"
+				isrooted="True"
+				usecache="False">
+					<item
+					name="Ptrecord"
+					id="88f9726c-d988-4fa1-a525-b13fa0aad052"
+					searchtimeout="30000ms"
+					capname="inputtag"
+					refpath="/dom[@domain='neutron.plexia.local']/body/iframe[@id='PlexiaMainFrame']//input[#'ptrecord']"
+					addcaps="unknown,webelement,inputtag"
+					refimgid="53f77776-cf13-4f52-a041-228d7434e17e">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'ptrecord']
+					</item>
+					<item
+					name="ImgGo"
+					id="c7488181-5318-4ab8-a49c-5aa856e71d63"
+					searchtimeout="30000ms"
+					capname="inputtag"
+					refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='sideframe']//input[#'imgGo']"
+					addcaps="unknown,webelement,inputtag"
+					refimgid="68e19aef-2d51-4f4b-a13b-cc9dcadf360a">
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='sideframe']//input[#'imgGo']
+					</item>
+					<basepath>
+						/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']
+					</basepath>
+				</folder>
+				<item
+				name="BtnNewRichTextNote"
+				id="de97364b-0a04-4f90-936b-e454febd22f0"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='' and @path='/emrwebtest3_modal/' and @browsername='IE']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//input[#'btnNewRichTextNote']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="0a8c28cb-cf9a-48d3-b0a7-d3d14f7095b4">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnNewRichTextNote']
+				</item>
+				<item
+				name="TxtDOB"
+				id="4f120d55-d6c0-4c64-aed8-2375183b7df1"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//input[#'txtDOB']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="3c72ae32-9ab7-407c-8bc4-0d5d79f43ce6">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']
+				</item>
+				<item
+				name="ImgEncounters"
+				id="66e704e7-f96c-4682-89a7-d8387481fc01"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='menuframe']//img[#'imgEncounters']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="96e76ae5-91c2-45af-b596-08c92ff91b2d">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='menuframe']//img[#'imgEncounters']
+				</item>
+				<item
+				name="LinkEncounter"
+				id="01a56d72-90a6-4f5e-94a8-de74039a145e"
+				searchtimeout="30000ms"
+				capname="atag"
+				refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkEncounter']"
+				addcaps="unknown,webelement,atag"
+				refimgid="4a372598-7b84-490e-9b9c-29ae35358405">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkEncounter']
+				</item>
+				<item
+				name="ImgBilling"
+				id="40c514fe-c320-49a0-9ff5-a1eaa4d6661e"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='menuframe']//img[#'imgBilling']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="8f093f4e-01fd-4ffb-8228-a2841e4714ae">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='menuframe']//img[#'imgBilling']
+				</item>
+				<item
+				name="BtnNewBilling"
+				id="70b2d883-451c-4b5a-9de2-ed7e4c0d1f0d"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//input[#'btnNewBilling']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="bac47e98-a47b-468e-8d4a-ae12762dac40">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnNewBilling']
+				</item>
+				<item
+				name="Utilities"
+				id="5bf49ad5-7213-4532-9f0e-b9bf1ea970a4"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='neutron.plexia.local']//iframe[#'PlexiaMainFrame']/body/iframe[@id='topFrame']//img[#'utilities']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="e2119187-123a-4070-b29f-f9fc843d0cb4">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='topFrame']//img[#'utilities']
+				</item>
+				<item
+				name="View"
+				id="f58b8935-4667-40a0-80f3-bb4a7d733876"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_']//iframe[#'PlexiaMainFrame']/body/iframe[@id='mainFrame']//form[#'Form1']/iframe//a[#'GVEncounter_ctl03_hlView']/img[@alt='View']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="1a25fdfc-c9e5-44db-9450-47ac49ab147a">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'GVEncounter_ctl03_hlView']/img[@alt='View']
+				</item>
+				<item
+				name="Logoimg"
+				id="fc9e2148-3c4d-4c7c-abac-15ab0ec40efc"
+				searchtimeout="30000ms"
+				capname="imgtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='' and @path='/emrwebtest3_modal/' and @browsername='Chrome']//iframe[#'PlexiaMainFrame']/body/iframe[@id='topFrame']//img[#'logoimg']"
+				addcaps="unknown,webelement,imgtag"
+				refimgid="5737ad27-0406-4edc-8384-480b19147a17">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='topFrame']//img[#'logoimg']
+				</item>
+				<item
+				name="BtnLogout"
+				id="f19478ab-993a-416b-b698-6e3bc74b485c"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='' and @path='/emrwebtest3_modal/' and @browsername='Chrome']/body/iframe[@id='PlexiaMainFrame']//input[#'btnLogout']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="c7add053-7638-4960-a95e-a5dce5ae5d8a">
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'btnLogout']
+				</item>
+				<basepath>
+					/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']
+				</basepath>
+			</folder>
+			<folder
+			name="SearchBar"
+			id="7a73583f-26d1-4504-addf-d40a991ff913"
+			searchtimeout="30000ms"
+			capname="webdocument"
+			isrooted="True"
+			usecache="False">
+				<item
+				name="AaronSiskind"
+				id="f959ad1c-adc3-4008-b01a-46be10c9f40e"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='Search Results']//form[#'physicianSearchMain']/iframe//table[#'dataGridSearch']/tbody/tr[2]/td[2]/span[@innertext='Aaron, Siskind']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="39ac153b-ab8f-4383-b4b9-62fdebd72d6a">
+					/dom[@domain='neutron.plexia.local']//form[#'physicianSearchMain']/iframe[@id='ifrmmain']//table[#'dataGridSearch']//span[@innertext='Aaron, Siskind']
+				</item>
+				<item
+				name="BtnCancel"
+				id="0a4220ff-2c3b-42cb-b2c9-c8ee1ccdbf3b"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='Search Results']//form[#'physicianSearchMain']/iframe//input[#'btnCancel']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="5f16364f-e9b8-4f44-84e5-5a470508f702">
+					/dom[@domain='neutron.plexia.local']//form[#'physicianSearchMain']/?/?//input[#'btnCancel']
+				</item>
+				<item
+				name="HTML"
+				id="aaf6ab13-0501-4ba5-a1ca-a7a662de6176"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='Dialog.aspx']//form[#'Form1']/iframe//div[#'ctl00_ContentPlaceHolder1_radEditor_ModesWrapper']/ul/li[2]/a/span[@innertext='HTML']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="e8e0b4a5-7f2d-4180-86ee-2995f9d6abf2">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/iframe[@id='ifrmmain']//div[#'ctl00_ContentPlaceHolder1_radEditor_ModesWrapper']/ul//span[@innertext='HTML']
+				</item>
+				<item
+				name="RichtextboxHTML"
+				id="d393cfee-f653-481b-be7d-3f14f7138b4f"
+				searchtimeout="30000ms"
+				capname="textareatag"
+				addcaps="unknown,webelement,textareatag"
+				refimgid="aca200cb-0631-4c87-9c20-289d53a099da">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/iframe[@id='ifrmmain']//td[#'ctl00_ContentPlaceHolder1_radEditorCenter']/?/?/body/textarea[@wrap='soft' or @required='False']
+				</item>
+				<item
+				name="Design"
+				id="d13f5dca-e7ee-4369-97e1-88b4b80bdec9"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='Dialog.aspx']//form[#'Form1']/iframe//div[#'ctl00_ContentPlaceHolder1_radEditor_ModesWrapper']/ul/li[1]/a/span[@innertext='Design']"
+				addcaps="unknown,webelement,spantag"
+				refimgid="1dbe1349-f8ed-4aa8-b288-867a1bfc895d">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/iframe[@id='ifrmmain']//div[#'ctl00_ContentPlaceHolder1_radEditor_ModesWrapper']/ul//span[@innertext='Design']
+				</item>
+				<item
+				name="Testing"
+				id="97a03d92-fd89-4b46-8d18-2da8cc5597f1"
+				searchtimeout="30000ms"
+				capname="webelement"
+				addcaps="unknown,webelement"
+				refimgid="e730829f-9bab-4153-a26f-57d66a388a64">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/?/?/?//tag[@innertext='Testing']
+				</item>
+				<item
+				name="JustifyCenter"
+				id="6627df20-d60e-4aaa-9d0c-bf0078aefe1f"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='Dialog.aspx']//form[#'Form1']/iframe//td[#'ctl00_ContentPlaceHolder1_radEditorTop']/div/ul[5]/li[3]/a/span"
+				addcaps="unknown,webelement,spantag"
+				refimgid="26a34643-ee14-4657-b52e-f9709dcb6df8">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/iframe[@id='ifrmmain']//td[#'ctl00_ContentPlaceHolder1_radEditorTop']/div/ul[5]/?/?/a[@title='Align Center']/span
+				</item>
+				<item
+				name="JustifyRight"
+				id="393992ec-443b-4462-add3-b24d5fdff126"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='Dialog.aspx']//form[#'Form1']/iframe//td[#'ctl00_ContentPlaceHolder1_radEditorTop']/div/ul[5]/li[4]/a/span"
+				addcaps="unknown,webelement,spantag"
+				refimgid="22d20bb3-826e-4a59-9cc5-24d857d6d941">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/iframe[@id='ifrmmain']//td[#'ctl00_ContentPlaceHolder1_radEditorTop']/div/ul[5]/?/?/a[@title='Align Right']/span
+				</item>
+				<item
+				name="JustifyLeft"
+				id="faf039f7-1457-471a-8a73-06ff3252bd7e"
+				searchtimeout="30000ms"
+				capname="spantag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='Dialog.aspx']//form[#'Form1']/iframe//td[#'ctl00_ContentPlaceHolder1_radEditorTop']/div/ul[5]/li[2]/a/span"
+				addcaps="unknown,webelement,spantag"
+				refimgid="3e36d265-0838-4a58-bf4d-0b6dc73b34a4">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/iframe[@id='ifrmmain']//td[#'ctl00_ContentPlaceHolder1_radEditorTop']/div/ul[5]//span
+				</item>
+				<item
+				name="Line1"
+				id="8b018663-6736-46c7-aa32-b6b236e94791"
+				searchtimeout="30000ms"
+				capname="ptag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^PLEXIA\ EMR\ -\ emrwebtest3_' and @page='Dialog.aspx']//form[#'Form1']/iframe//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line1']"
+				addcaps="unknown,webelement,ptag"
+				refimgid="dd638636-58ff-4ac1-8371-1761a9670596">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/?/?//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line1']
+				</item>
+				<item
+				name="Line2"
+				id="0fea5866-e602-430d-95b6-c01f5550f10c"
+				searchtimeout="30000ms"
+				capname="ptag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/iframe[@id='ifrmmain']//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line2']"
+				addcaps="unknown,webelement,ptag"
+				refimgid="e1dbe091-d9a1-47c1-aa4b-56a094abe646">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/?/?//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line2']
+				</item>
+				<item
+				name="Line3"
+				id="4412374f-5f1a-4f7e-b352-8798a1cf4621"
+				searchtimeout="30000ms"
+				capname="ptag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/iframe[@id='ifrmmain']//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line3']"
+				addcaps="unknown,webelement,ptag"
+				refimgid="d08d6477-dc94-4240-aa83-efe2f29e54f5">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/?/?//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line3']
+				</item>
+				<item
+				name="Line4"
+				id="b6c2cff3-5f0f-453b-ab04-21bf00b338d5"
+				searchtimeout="30000ms"
+				capname="ptag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/iframe[@id='ifrmmain']//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line4']"
+				addcaps="unknown,webelement,ptag"
+				refimgid="2cf05a44-7415-4644-82e4-11d93260e089">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/?/?//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line4']
+				</item>
+				<item
+				name="Line5"
+				id="bfa91574-80a6-4b41-ab7b-acfdeb9ab6ea"
+				searchtimeout="30000ms"
+				capname="ptag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/iframe[@id='ifrmmain']//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line5']"
+				addcaps="unknown,webelement,ptag"
+				refimgid="307df878-8598-4c01-9894-03bc2fb3c6ac">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/?/?//div[#'ctl00_ContentPlaceHolder1_radEditor_contentDiv']/p[@innertext='line5']
+				</item>
+				<item
+				name="TxtBilledFeeItem"
+				id="a9d5a768-2d8e-4f36-88c2-d3b34957ef71"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/table/tbody/tr/td/iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="6b1fac16-12ee-46bb-837b-f5ab3f86e9a2">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']
+				</item>
+				<item
+				name="SomeTdTag"
+				id="a5395c59-d1b7-464c-b6ea-4837a42be6b2"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/table/tbody/tr/td/iframe[@id='ifrmmain']//table[#'tblTop']/tbody/tr[2]/td[2]"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="4d3d64bf-3e2a-45fd-acad-449113d68c3d">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//table[#'tblTop']/tbody/tr[2]/td[2]
+				</item>
+				<item
+				name="TxtServiceDate"
+				id="afe3a9a1-fb22-4fe9-86a0-a29b59fe02ba"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/table/tbody/tr/td/iframe[@id='ifrmmain']//input[#'txtServiceDate']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="3ce3ff76-faa8-4156-ba5b-670bf4d856f7">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtServiceDate']
+				</item>
+				<item
+				name="Billing1TxtFee1"
+				id="197c9b1b-b992-419d-86b6-8092a2a5c942"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='Encounter - ptid: 14 - Date: Sep 23, 2014 15:50 PM']//form[#'form1']/iframe[@id='ifrmmain']//input[#'Billing1_txtFee1']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="43d30751-548e-474d-921e-7d7a036b89cb">
+					/dom[@domain='neutron.plexia.local']//form[#'form1']/?/?//input[#'Billing1_txtFee1']
+				</item>
+				<item
+				name="Billing1TxtFee2"
+				id="cd6d7d2e-8386-48a8-b2e5-15d8580cd3b2"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='Encounter - ptid: 14 - Date: Sep 23, 2014 15:50 PM']//form[#'form1']/iframe[@id='ifrmmain']//input[#'Billing1_txtFee2']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="8e534cce-5f29-4980-857c-2baa4d504b9b">
+					/dom[@domain='neutron.plexia.local']//form[#'form1']/?/?//input[#'Billing1_txtFee2']
+				</item>
+				<item
+				name="Billing1TxtFee3"
+				id="f90e2d26-2c96-4b37-9bb8-1c4bca7d8537"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='Encounter - ptid: 14 - Date: Sep 23, 2014 15:50 PM']//form[#'form1']/iframe[@id='ifrmmain']//input[#'Billing1_txtFee3']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="bd301c46-0727-4889-b68d-1a62189ceaa1">
+					/dom[@domain='neutron.plexia.local']//form[#'form1']/?/?//input[#'Billing1_txtFee3']
+				</item>
+				<item
+				name="BtnCancel1"
+				id="be044e5e-c992-489c-b3c2-f4af4588d55d"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='Encounter - ptid: 14 - Date: Sep 23, 2014 15:50 PM']//form[#'form1']/iframe[@id='ifrmmain']//input[#'btnCancel']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="0944f421-e954-477e-95c0-3af23b6a8d5d">
+					/dom[@domain='neutron.plexia.local']//form[#'form1']/?/?//input[#'btnCancel']
+				</item>
+				<item
+				name="BtnCancel2"
+				id="1f0e9adb-510d-4893-b57e-314723eea79b"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption='PLEXIA EMR - emrwebtest3_modal' and @page='Dialog.aspx']//form[#'Form1']/table/tbody/tr/td/iframe[@id='ifrmmain']//input[#'btnCancel']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="3078bf9b-c19f-47a3-8e91-bfd224c6e038">
+					/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'btnCancel']
+				</item>
+				<item
+				name="PatientHeaderPopup1Ctl02"
+				id="8a9f5941-820b-4e03-bcd4-cb592cd2b372"
+				searchtimeout="30000ms"
+				capname="tdtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^Encounter\ -\ ptid:\ 14\ -\ Da']//form[#'form1']/iframe//td[#'PatientHeaderPopup1_ctl02']"
+				addcaps="unknown,webelement,tdtag"
+				refimgid="71a285f5-f3f0-4156-9d4c-618851c4048f">
+					/dom[@domain='neutron.plexia.local']//form[#'form1']/?/?//td[#'PatientHeaderPopup1_ctl02']
+				</item>
+				<item
+				name="DdlPage"
+				id="353e375a-e636-4286-838a-8bbd1e043235"
+				searchtimeout="30000ms"
+				capname="selecttag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^Utilities\ -\ PLEXIA\ EMR\ -\ ']/frameset/frame[@name='top']//select[#'ddlPage']"
+				addcaps="unknown,webelement,selecttag"
+				refimgid="99dc9228-a9b9-4f6d-99c7-a614bb812ce9">
+					/dom[@domain='neutron.plexia.local']/?/?/frame[@name='top']//select[#'ddlPage']
+				</item>
+				<item
+				name="btnUseCurrPt"
+				id="2756fb61-0717-4462-8e36-f75b73acbac5"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^Utilities\ -\ PLEXIA\ EMR\ -\ ']/frameset/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_PatientSearch1_btnUseCurrPt']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="32498165-a151-45db-98ec-15676e950d06">
+					/dom[@domain='neutron.plexia.local']/?/?/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_PatientSearch1_btnUseCurrPt']
+				</item>
+				<item
+				name="QuickCreateFee"
+				id="4599d11a-cf4e-40a3-ba5b-4249bc1d7283"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^Utilities\ -\ PLEXIA\ EMR\ -\ ']/frameset/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_lblFEE']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="cd00a580-0b8d-4f04-8928-4a48fb2fac44">
+					/dom[@domain='neutron.plexia.local']/?/?/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_lblFEE']
+				</item>
+				<item
+				name="btnRefresh"
+				id="73b58c5c-e829-4f02-ba0f-f359fc7144af"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^Utilities\ -\ PLEXIA\ EMR\ -\ ']/frameset/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_btnRefreshSimpleBill']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="6f639ea0-61b3-4ce3-8cbf-984d7e2a7d1f">
+					/dom[@domain='neutron.plexia.local']/?/?/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_btnRefreshSimpleBill']
+				</item>
+				<item
+				name="ServiceDate"
+				id="0848adfa-1719-4cd6-ae00-47b5debb1e17"
+				searchtimeout="30000ms"
+				capname="inputtag"
+				refpath="/dom[@domain='neutron.plexia.local' and @caption~'^Utilities\ -\ PLEXIA\ EMR\ -\ ']/frameset/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_txtServiceDate']"
+				addcaps="unknown,webelement,inputtag"
+				refimgid="2365ba41-2b0e-463d-98d9-a65237a77de5">
+					/dom[@domain='neutron.plexia.local']/?/?/frame[@id='recallmain']//input[#'ctl00_ContentPlaceHolder1_txtServiceDate']
+				</item>
+				<basepath>
+					/dom[@domain='neutron.plexia.local']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='neutron.plexia.local']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="OutstandingPopUpModal"
+		id="0264dd79-1ad5-4ee9-b70a-c2741ed90c3d"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='Utilities - Plexia EMR - emrwebtest3_modal -- Webpage Dialog']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Close"
+			id="b255f951-093b-41d3-8ebe-463a5b1d3034"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="173b5d3f-ff4a-4dea-bcec-54916966d9c8">
+				/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJMSURBVDhPlZBNaNNgGMcDQ0ERD37gSVFmtUOP
+4sGDqCDKFPHm0YsKKgrKwCmmlQ0c4tZ9OOkhow5hKurWSg+TTehIh8xu9oPValpmrW2zzXWbs2va
+JG3+5k3TD2XgfOBHQp7393+evFR10TTNrQaTyXRbV/4s0sQ/imGYmB5yWdcqZTabBgAFiiJBSTej
+kDwEKbQVwoctEELXUCjk4XA4pkmQHnJeVykKmFjTyDx3D3rvIhHZheXweoyz5+AOx1VRRmpguxbA
+smyqtAVBl1/WXHzhdoQ+H8Sv2EZ899TintOOozYfjBYfOl0xzA/WI5+XIavwySS+RaPaFlrApb6R
+m688N6AkKcx46jGXngG/mEY3G0ddZwCGNh/GJ/3IyxJkndJvaKu3v3sclxM1+MHuKABL6iRRm0QO
+trjiMHYHceU1B0mSVESNcoCiMNsWo5uUBd9mNDhHsL/Lj90PvRoGi1+T66whHLEGdDkHScxVBfDr
+WoTIWjwa6sMx63vx7NMvOPPkU5kTPUEYW724ZecgqmKRbCUg/5XiPMOHF049C+D4fXuYNMgk7aA6
+rSTlclmIKuRJKAeIASp91dZ7gay+t8MPZoxHYj6N1M8MHH4eBzp82Nk0hv6JuCZms4JKVcDyKMXN
+uqgNtebRO8a2j9jTXrx1DfUODK0+0M4IcqpUlFWETCVgaYhqmu2l5pJdVGT4wT6+4c0UTvZM4rQt
+iOv9HN4Gp1VBgJDN6M/iezmguprpRgtpkCnkIBGKZCD8xYoB5IPWWWWtGPB/0Nxva+bPEDKmigIA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		name="HttpsNeutronPlexiaLocalUtilitie"
+		id="16ca41fb-0a34-4088-b717-b5fd2811a53a"
+		searchtimeout="30000ms"
+		capname="form"
+		refpath="/form[@title='https://neutron.plexia.local/ - Utilities - PLEXIA EMR - emrwebtest3_modal - Internet Explorer']"
+		addcaps="form,nativewindow"
+		isrooted="True"
+		usecache="True">
+			<item
+			name="Close"
+			id="9b83333d-9a09-4407-8c0c-71a725c2a403"
+			searchtimeout="30000ms"
+			capname="button"
+			refpath="/form[@title~'^https://neutron\.plexia\.lo']/titlebar/button[@accessiblename='Close']"
+			addcaps="button,accessible"
+			refimgid="1de9822a-ff8d-4e6d-a2d8-54d4cc95c165">
+				/form[@title~'^https://neutron\.plexia\.lo']/?/?/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title~'^https://neutron\.plexia\.lo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath/>
+	</rootfolder>
+	<variables>
+		<var
+		name="RichTextPage"
+		id="6ded1961-adac-486c-b286-4540ccac922f">
+		</var>
+	</variables>
+</repository>

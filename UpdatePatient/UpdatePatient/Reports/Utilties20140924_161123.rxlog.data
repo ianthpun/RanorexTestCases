@@ -1,0 +1,92 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/24/2014 4:11:26 PM"
+	timestampiso="2014-09-24T23:11:26"
+	module="Utilties"
+	timeoutfactor="1"
+	result="Success"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="bbc3962006ef984"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			Utilties
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.257"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.Utilities' at 41;34.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='topFrame']//img[#'utilities']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.Utilities"
+			id="5bf49ad5721345329f0eb9bf1ea970a4"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Utilties.cs"
+			codeline="81"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.748"
+		level="Info"
+		category="Mouse">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.DdlPage' at 175;12.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']/?/?/frame[@name='top']//select[#'ddlPage']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.DdlPage"
+			id="353e375ae6364286838a8bbd1e043235"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Utilties.cs"
+			codeline="85"
+			itemindex="1"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:02.669"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence 'msp billing '.
+			</message>
+			<metainfo
+			itemindex="2"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Utilties.cs"
+			codeline="89"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:04.096"
+		level="Info"
+		category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+			itemindex="3"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Utilties.cs"
+			codeline="93"
+			loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,1195 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/24/2014 1:47:26 PM"
+	timestampiso="2014-09-24T20:47:26"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="32f73cfb4114e882"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="UpdatePatient"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="1"
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="test suite"
+		rid="1e003e890fdfd730"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="DefaultTranslationCodes"
+			testcaseid="9d892f8e-6423-4a91-aebf-2bcbd8a65ca1"
+			datasource="Ages"
+			iterationcount="6"
+			maxchildren="0"
+			result="Failed"
+			duration="0ms"
+			durationms="0"
+			type="test case"
+			rid="1cb5f9d977134e2a"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				testcasename="DefaultTranslationCodes"
+				iteration="1"
+				result="Success"
+				duration="22.28s"
+				durationms="22284"
+				type="test case iteration"
+				rid="17497651ddad78fb"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="Ages">
+							12/12/2013 12:00:00 AM
+						</field>
+						<field
+						name="Column2">
+						</field>
+						<field
+						name="Column3">
+						</field>
+						<field
+						name="Fees">
+							12100
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					result="Success"
+					duration="3620ms"
+					durationms="3620"
+					type="test case setup"
+					rid="105239cde5ce3f4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+						modulename="AdminIan"
+						moduleid="e33078ec-6a50-46c0-9b7d-31b70989304e"
+						moduletype="Recording"
+						result="Success"
+						duration="3596ms"
+						durationms="3596"
+						type="test module"
+						rid="10286cab6fd36df9"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+							time="00:00.873"
+							level="Info"
+							category="Website">
+								<message>
+									Opening web site 'https://neutron.plexia.local/emrwebtest3_modal/<br/>' with browser 'Firefox' in normal mode.
+								</message>
+								<metainfo
+								itemindex="0"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="81"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:01.163"
+							level="Info"
+							category="Mouse">
+								<message>
+									Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName' at 42;10.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName"
+								id="564a9280df994bf08e2ba336d07f8caf"
+								timeout="120000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="84"
+								itemindex="1"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:03.125"
+							level="Info"
+							category="Keyboard">
+								<message>
+									Key sequence 'admin_{LShiftKey up}ian{Tab}' with focus on 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName'.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName"
+								id="564a9280df994bf08e2ba336d07f8caf"
+								timeout="120000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="87"
+								itemindex="2"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:03.763"
+							level="Info"
+							category="Keyboard">
+								<message>
+									Key sequence 'plexiadev'.
+								</message>
+								<metainfo
+								itemindex="3"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="90"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:04.136"
+							level="Info"
+							category="Mouse">
+								<message>
+									Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.BtnLogin' at 21;8.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'btnLogin']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.BtnLogin"
+								id="cd037894b92246aa905210b3429d654a"
+								timeout="120000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="93"
+								itemindex="4"
+								loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+					modulename="CloseOutstanding"
+					moduleid="cbb516d6-8849-47ca-b7f0-b5ed6331323f"
+					moduletype="Recording"
+					result="Success"
+					duration="1431ms"
+					durationms="1431"
+					type="test module"
+					rid="eff90f9989cef65"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:04.472"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'OutstandingPopUpModal.Close' at 19;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']/?/?/button[@accessiblename='Close']"
+							fullname="UpdatePatientRepository.OutstandingPopUpModal.Close"
+							id="b255f951093b41d38ebe463a5b1d3034"
+							timeout="60000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\CloseOutstanding.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="PatientRecords"
+					moduleid="8fd30920-180f-4dc0-804e-76a1572553a7"
+					moduletype="Recording"
+					result="Success"
+					duration="961ms"
+					durationms="961"
+					type="test module"
+					rid="1c7a3b6a4b0d3338"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:05.911"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.Ptrecord' at 36;36.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'ptrecord']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.Ptrecord"
+							id="88f9726cd9884fa1a525b13fa0aad052"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\PatientRecords.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="SearchBarRandomPatient"
+					moduleid="7b4b5a5d-d770-4194-addc-f5d874c8911a"
+					moduletype="Recording"
+					result="Success"
+					duration="3001ms"
+					durationms="3001"
+					type="test module"
+					rid="187faa7aec7d19d4"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:07.120"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.ImgGo' at 14;17.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='sideframe']//input[#'imgGo']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.ImgGo"
+							id="c748818153184ab8a49c5aa856e71d63"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\SearchBarRandomPatient.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:08.002"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'PLEXIAEMRTest3Modal.SearchBar.AaronSiskind' at 23;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'physicianSearchMain']/iframe[@id='ifrmmain']//table[#'dataGridSearch']//span[@innertext='Aaron, Siskind']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.AaronSiskind"
+							id="f959ad1cadc34008b01a46be10c9f40e"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\SearchBarRandomPatient.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:09.258"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.BtnCancel' at 29;2.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'physicianSearchMain']/?/?//input[#'btnCancel']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.BtnCancel"
+							id="0a4220ff2c3b42cbb2c9c8ee1ccdbf3b"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\SearchBarRandomPatient.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="ChangeAge"
+					moduleid="2686235b-f670-4199-9582-5488229ea662"
+					moduletype="Recording"
+					result="Success"
+					duration="6131ms"
+					durationms="6131"
+					type="test module"
+					rid="3219f7c62308abbb"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="AgeVariable"
+							value="12/12/2013 12:00:00 AM"/>
+						</varbindings>
+						<item
+						time="00:10.126"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$AgeVariable = '12/12/2013 12:00:00 AM'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:10.201"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.PatientRecords.LinkPersonal' at 50;4.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkPersonal']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.PatientRecords.LinkPersonal"
+							id="18281774cdb54c8da49574801ed43a99"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="94"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:11.027"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Middle Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB' at 82;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB"
+							id="4f120d55d6c04c64aed82375183b7df1"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="98"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:11.967"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB"
+							id="4f120d55d6c04c64aed82375183b7df1"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="102"
+							itemindex="2"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:12.626"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $AgeVariable with focus on 'PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB"
+							id="4f120d55d6c04c64aed82375183b7df1"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="106"
+							itemindex="3"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:15.285"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.PersonalProfile.BtnUpdatePatient' at 75;9.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnUpdatePatient']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.PersonalProfile.BtnUpdatePatient"
+							id="2e9ca575a47a408e8685d824853ddc41"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="110"
+							itemindex="4"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="Billing"
+					moduleid="c5c96dc2-9c83-4a83-9e60-8a6e101bb2de"
+					moduletype="Recording"
+					result="Success"
+					duration="2421ms"
+					durationms="2421"
+					type="test module"
+					rid="1ac95ec8225f38aa"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:16.261"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.ImgBilling' at 26;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='menuframe']//img[#'imgBilling']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.ImgBilling"
+							id="000bd28f27fc4e0187d31bd6c7154170"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Billing.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:17.199"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.BtnNewBilling' at 50;8.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnNewBilling']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.BtnNewBilling"
+							id="6a46b8f1e1aa4388928796906432a717"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Billing.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="FeeCodeCheckMSP"
+					moduleid="cf08e6b1-e1b9-4dd7-aca1-be7f9696f79e"
+					moduletype="Recording"
+					result="Success"
+					duration="4065ms"
+					durationms="4065"
+					type="test module"
+					rid="4b1dfceb83bb7aa"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="DefaultFeeCode"
+							value="12100"/>
+						</varbindings>
+						<item
+						time="00:18.684"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$DefaultFeeCode = '12100'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:18.747"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem' at 15;6.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem"
+							id="94ed17eb281244359c1602d49b141f7f"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+							codeline="94"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:19.583"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}100' with focus on 'PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem"
+							id="94ed17eb281244359c1602d49b141f7f"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+							codeline="98"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:20.640"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.SomeTdTag' at 43;2.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//table[#'tblTop']/tbody/tr[2]/td[2]"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.SomeTdTag"
+							id="d0b7d02f161a4effa50a8de407a6b9a4"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+							codeline="102"
+							itemindex="2"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:21.608"
+						level="Info"
+						category="Validation">
+							<message>
+								Validating AttributeEqual (Value=$DefaultFeeCode) on item 'PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem"
+							id="94ed17eb281244359c1602d49b141f7f"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+							codeline="106"
+							itemindex="3"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:21.777"
+						level="Success"
+						category="Validation">
+							<message>
+								Attribute 'Value' of element for item 'UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem' does match the specified value.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem"
+							id="94ed17eb281244359c1602d49b141f7f"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+							codeline="107"
+							loglvl="Success"
+							itemindex="3"/>
+						</item>
+						<item
+						time="00:21.942"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.BtnCancel1' at Center.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'btnCancel']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.BtnCancel1"
+							id="315961baaf88416b8e588ce139e97151"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+							codeline="110"
+							itemindex="4"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					result="Success"
+					duration="378ms"
+					durationms="378"
+					type="test case teardown"
+					rid="db9ce857266f21c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+						modulename="Close"
+						moduleid="09a93ac3-6694-45ea-b881-11556b966103"
+						moduletype="Recording"
+						result="Success"
+						duration="374ms"
+						durationms="374"
+						type="test module"
+						rid="6eaf78699f0b050"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+							time="00:22.754"
+							level="Info"
+							category="Application">
+								<message>
+									Killing application containing item 'PLEXIAEMRTest3Modal'.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.Self"
+								id="785ea00415224869986f3f27b57b7427"
+								timeout="30000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Close.cs"
+								codeline="81"
+								itemindex="0"
+								loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+				</activity>
+				<activity
+				testcasename="DefaultTranslationCodes"
+				iteration="2"
+				result="Failed"
+				duration="0ms"
+				durationms="0"
+				type="test case iteration"
+				rid="27250210596b0974"
+				totalerrorcount="2"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<datarow>
+						<field
+						name="Ages">
+							12/12/1964 12:00:00 AM
+						</field>
+						<field
+						name="Column2">
+						</field>
+						<field
+						name="Column3">
+						</field>
+						<field
+						name="Fees">
+							100
+						</field>
+					</datarow>
+					<detail>
+					</detail>
+					<activity
+					result="Success"
+					duration="2943ms"
+					durationms="2943"
+					type="test case setup"
+					rid="19008d6a66ecb1ec"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<activity
+						modulename="AdminIan"
+						moduleid="e33078ec-6a50-46c0-9b7d-31b70989304e"
+						moduletype="Recording"
+						result="Success"
+						duration="2934ms"
+						durationms="2934"
+						type="test module"
+						rid="ad251874b516db5"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0">
+							<detail>
+							</detail>
+							<varbindings/>
+							<item
+							time="00:23.136"
+							level="Info"
+							category="Website">
+								<message>
+									Opening web site 'https://neutron.plexia.local/emrwebtest3_modal/<br/>' with browser 'Firefox' in normal mode.
+								</message>
+								<metainfo
+								itemindex="0"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="81"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:23.320"
+							level="Info"
+							category="Mouse">
+								<message>
+									Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName' at 42;10.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName"
+								id="564a9280df994bf08e2ba336d07f8caf"
+								timeout="120000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="84"
+								itemindex="1"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:24.872"
+							level="Info"
+							category="Keyboard">
+								<message>
+									Key sequence 'admin_{LShiftKey up}ian{Tab}' with focus on 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName'.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName"
+								id="564a9280df994bf08e2ba336d07f8caf"
+								timeout="120000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="87"
+								itemindex="2"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:25.339"
+							level="Info"
+							category="Keyboard">
+								<message>
+									Key sequence 'plexiadev'.
+								</message>
+								<metainfo
+								itemindex="3"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="90"
+								loglvl="Info"/>
+							</item>
+							<item
+							time="00:25.717"
+							level="Info"
+							category="Mouse">
+								<message>
+									Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.BtnLogin' at 21;8.
+								</message>
+								<metainfo
+								type="repoitem"
+								path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'btnLogin']"
+								fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.BtnLogin"
+								id="cd037894b92246aa905210b3429d654a"
+								timeout="120000"
+								codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+								codeline="93"
+								itemindex="4"
+								loglvl="Info"/>
+							</item>
+						</activity>
+					</activity>
+					<activity
+					modulename="CloseOutstanding"
+					moduleid="cbb516d6-8849-47ca-b7f0-b5ed6331323f"
+					moduletype="Recording"
+					result="Success"
+					duration="1400ms"
+					durationms="1400"
+					type="test module"
+					rid="fb4aaf0d122ca0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:26.079"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'OutstandingPopUpModal.Close' at 19;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']/?/?/button[@accessiblename='Close']"
+							fullname="UpdatePatientRepository.OutstandingPopUpModal.Close"
+							id="b255f951093b41d38ebe463a5b1d3034"
+							timeout="60000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\CloseOutstanding.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="PatientRecords"
+					moduleid="8fd30920-180f-4dc0-804e-76a1572553a7"
+					moduletype="Recording"
+					result="Success"
+					duration="940ms"
+					durationms="940"
+					type="test module"
+					rid="1e4f4315cf28a8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:27.486"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.Ptrecord' at 36;36.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'ptrecord']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.Ptrecord"
+							id="88f9726cd9884fa1a525b13fa0aad052"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\PatientRecords.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="SearchBarRandomPatient"
+					moduleid="7b4b5a5d-d770-4194-addc-f5d874c8911a"
+					moduletype="Recording"
+					result="Success"
+					duration="3361ms"
+					durationms="3361"
+					type="test module"
+					rid="600c22d191bd172"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:28.442"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.ImgGo' at 14;17.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='sideframe']//input[#'imgGo']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.MainMenu.ImgGo"
+							id="c748818153184ab8a49c5aa856e71d63"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\SearchBarRandomPatient.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:29.636"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left DoubleClick item 'PLEXIAEMRTest3Modal.SearchBar.AaronSiskind' at 23;7.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'physicianSearchMain']/iframe[@id='ifrmmain']//table[#'dataGridSearch']//span[@innertext='Aaron, Siskind']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.AaronSiskind"
+							id="f959ad1cadc34008b01a46be10c9f40e"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\SearchBarRandomPatient.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:30.854"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.BtnCancel' at 29;2.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']//form[#'physicianSearchMain']/?/?//input[#'btnCancel']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.BtnCancel"
+							id="0a4220ff2c3b42cbb2c9c8ee1ccdbf3b"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\SearchBarRandomPatient.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="ChangeAge"
+					moduleid="2686235b-f670-4199-9582-5488229ea662"
+					moduletype="Recording"
+					result="Success"
+					duration="6132ms"
+					durationms="6132"
+					type="test module"
+					rid="2d902444612cc5e0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings>
+							<varbinding
+							name="AgeVariable"
+							value="12/12/1964 12:00:00 AM"/>
+						</varbindings>
+						<item
+						time="00:31.809"
+						level="Info"
+						category="Data">
+							<message>
+								Current variable values:<br/>$AgeVariable = '12/12/1964 12:00:00 AM'
+							</message>
+							<metainfo
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:31.904"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.PatientRecords.LinkPersonal' at 50;4.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//a[#'linkPersonal']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.PatientRecords.LinkPersonal"
+							id="18281774cdb54c8da49574801ed43a99"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="94"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:32.799"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Middle Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB' at 82;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB"
+							id="4f120d55d6c04c64aed82375183b7df1"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="98"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:33.675"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence '{END}{SHIFT DOWN}{HOME}{SHIFT UP}{DELETE}' with focus on 'PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB"
+							id="4f120d55d6c04c64aed82375183b7df1"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="102"
+							itemindex="2"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:34.449"
+						level="Info"
+						category="Keyboard">
+							<message>
+								Key sequence from variable $AgeVariable with focus on 'PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB'.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'txtDOB']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.TxtDOB"
+							id="4f120d55d6c04c64aed82375183b7df1"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="106"
+							itemindex="3"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:36.993"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.PersonalProfile.BtnUpdatePatient' at 75;9.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnUpdatePatient']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.PersonalProfile.BtnUpdatePatient"
+							id="2e9ca575a47a408e8685d824853ddc41"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\ChangeAge.cs"
+							codeline="110"
+							itemindex="4"
+							loglvl="Info"/>
+						</item>
+					</activity>
+					<activity
+					modulename="Billing"
+					moduleid="c5c96dc2-9c83-4a83-9e60-8a6e101bb2de"
+					moduletype="Recording"
+					result="Failed"
+					duration="0ms"
+					durationms="0"
+					type="test module"
+					rid="80c3658263011a1"
+					totalerrorcount="2"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:37.944"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.ImgBilling' at 26;14.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='menuframe']//img[#'imgBilling']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.ImgBilling"
+							id="000bd28f27fc4e0187d31bd6c7154170"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Billing.cs"
+							codeline="81"
+							itemindex="0"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:39.196"
+						level="Info"
+						category="Mouse">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.BtnNewBilling' at 50;8.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']/?/?/iframe[@id='mainFrame']//form[#'Form1']/iframe[@id='ifrmmain']//input[#'btnNewBilling']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.BtnNewBilling"
+							id="6a46b8f1e1aa4388928796906432a717"
+							timeout="90000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\Billing.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:55.759"
+						level="Error"
+						category="Module">
+							<message>
+								Test run was aborted by the user.
+							</message>
+							<metainfo
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

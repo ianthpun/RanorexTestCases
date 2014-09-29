@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="5.1.2.19431"
+id="cbb516d6-8849-47ca-b7f0-b5ed6331323f"
+embeddedrepository="false"
+mode="Desktop">
+	<name>
+		CloseOutstanding
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseOutstanding"
+	namespace="UpdatePatient"/>
+	<variables/>
+	<recorditems>
+		<mouseitem
+		enabled="True"
+		optional="False"
+		duration="500ms"
+		searchpropertyid="ff8b3ddf-a629-424a-86a0-39818fbdf688"
+		action="Click"
+		button="Left"
+		movetime="300ms"
+		sx="1071"
+		sy="288"
+		loc="19;7">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="Recorder"
+			id="b255f951-093b-41d3-8ebe-463a5b1d3034">
+				<element
+				role="button"
+				prefcap="button"
+				capabilities="accessible"
+				flavor="msaa"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				index="0"
+				rect="1052,281,34,21"
+				snapElem="">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessibledescription"
+					type="System.String">
+						Closes the window
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Close
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^Utilities\ -\ Plexia\ EMR\ -\ ']/?/?/button[@accessiblename='Close']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="3446a9fb-fc0e-497f-9eda-1a2ce517bd88">
+				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
+FFFFAH//2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	name="UpdatePatientRepository"
+	id="7c519df9-ceae-4c00-bb1d-833ed6b79560"
+	rxversion="5.1.2.19431"
+	relativepath="UpdatePatientRepository.rxrep">
+		<codegen
+		classname="UpdatePatientRepository"
+		namespace="UpdatePatient"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="87c65d34-3edb-4e7e-b5f7-ae9175948e72"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseOutstanding.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

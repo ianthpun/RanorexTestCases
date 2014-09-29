@@ -1,0 +1,66 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/18/2014 2:54:44 PM"
+	timestampiso="2014-09-18T21:54:44"
+	module="AdminIan"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1a61242fa4ca5818"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			AdminIan
+		</detail>
+		<errmsg>
+			Failed to open URL 'https://neutron.plexia.local/emrwebtest3_modal/' with browser safari.
+		</errmsg>
+		<varbindings/>
+		<item
+		time="00:00.234"
+		level="Info"
+		category="Website"
+		errimg=".\adminIan20140918_145441_29c8e5d4_trace.jpg"
+		errthumb=".\adminIan20140918_145441_29c8e5d4_trace_thumb.jpg">
+			<message>
+				Opening web site 'https://neutron.plexia.local/emrwebtest3_modal/' with browser 'Safari' in normal mode.
+			</message>
+			<metainfo
+			itemindex="0"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="81"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:00.328"
+		level="Error"
+		category="Module"
+		errimg=".\adminIan20140918_145441_6027bb5b_trace.jpg"
+		errthumb=".\adminIan20140918_145441_6027bb5b_trace_thumb.jpg">
+			<message>
+				Failed to open URL 'https://neutron.plexia.local/emrwebtest3_modal/' with browser safari.<br/>Failed to run application 'safari'.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+			stacktrace="   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized)
+   at UpdatePatient.AdminIan.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs:line 82
+   at Ranorex.Core.Testing.TestSuiteModule.RunInternal(DataContext parentDataContext)"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+			codeline="82"
+			loglvl="Error"
+			itemindex="0"/>
+		</item>
+	</activity>
+</report>

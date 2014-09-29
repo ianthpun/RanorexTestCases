@@ -1,0 +1,74 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/24/2014 2:36:20 PM"
+	timestampiso="2014-09-24T21:36:20"
+	module="FeeCodeCheckMSP"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="61a94ebefb97ea3"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="0"
+	totalblockedcount="0">
+		<detail>
+			FeeCodeCheckMSP
+		</detail>
+		<varbindings/>
+		<item
+		time="00:00.239"
+		level="Warn"
+		category="Data"
+		errimg=".\FeeCodeCheckMSP20140924_143616_ae7a7f37_trace.jpg"
+		errthumb=".\FeeCodeCheckMSP20140924_143616_ae7a7f37_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>DefaultFeeCode, DefaultFeeCode2, DefaultFeeCode3, ServiceDate, ServiceFeeCode1, ServiceFeeCode2, ServiceFeeCode3
+			</message>
+			<metainfo
+			loglvl="Warn"/>
+		</item>
+		<item
+		time="00:00.339"
+		level="Info"
+		category="Mouse"
+		errimg=".\FeeCodeCheckMSP20140924_143616_96cb2b2e_trace.jpg"
+		errthumb=".\FeeCodeCheckMSP20140924_143616_96cb2b2e_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem' at 15;6.
+			</message>
+			<metainfo
+			type="repoitem"
+			path="/dom[@domain='neutron.plexia.local']//form[#'Form1']/table//iframe[@id='ifrmmain']//input[#'txtBilledFeeItem']"
+			fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.SearchBar.TxtBilledFeeItem"
+			id="94ed17eb281244359c1602d49b141f7f"
+			timeout="90000"
+			codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\FeeCodeCheckMSP.cs"
+			codeline="172"
+			itemindex="0"
+			loglvl="Info"/>
+		</item>
+		<item
+		time="00:01.794"
+		level="Error"
+		category="User"
+		errimg=".\FeeCodeCheckMSP20140924_143616_ed7e82fc_trace.jpg"
+		errthumb=".\FeeCodeCheckMSP20140924_143616_ed7e82fc_trace_thumb.jpg">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+			loglvl="Error"/>
+		</item>
+	</activity>
+</report>

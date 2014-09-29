@@ -1,0 +1,144 @@
+﻿<report>
+	<activity
+	user="Ian"
+	host="IAN-PC"
+	rxversion="5.1.2.19431"
+	osversion="Windows 8.1 64bit"
+	runtimeversion="4.0.30319.34014"
+	procarch="32bit"
+	language="en-US"
+	screenresolution="3840x1080"
+	timestamp="9/23/2014 2:34:02 PM"
+	timestampiso="2014-09-23T21:34:02"
+	timeoutfactor="1"
+	result="Failed"
+	duration="0ms"
+	durationms="0"
+	type="root"
+	rid="1d3835a5bf3c186b"
+	totalerrorcount="1"
+	totalwarningcount="0"
+	totalsuccesscount="0"
+	totalfailedcount="1"
+	totalblockedcount="0">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+		testsuitename="UpdatePatient"
+		runconfigname="TestRun"
+		runlabel=""
+		maxchildren="1"
+		result="Failed"
+		duration="8994ms"
+		durationms="8994"
+		type="test suite"
+		rid="10a644cd89d1eb0e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+			testcasename="RichtextNoteAlignment"
+			testcaseid="e4b22cd1-6d5e-4081-ba0e-430a9894b587"
+			maxchildren="0"
+			result="Failed"
+			duration="8974ms"
+			durationms="8974"
+			type="test case"
+			rid="121b404c857f56e4"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+				result="Failed"
+				duration="8972ms"
+				durationms="8972"
+				type="test case setup"
+				rid="1a68d83f79b73058"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0">
+					<detail>
+					</detail>
+					<activity
+					modulename="AdminIan"
+					moduleid="e33078ec-6a50-46c0-9b7d-31b70989304e"
+					moduletype="Recording"
+					result="Failed"
+					duration="8951ms"
+					durationms="8951"
+					type="test module"
+					rid="11886b61e1083c54"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0">
+						<detail>
+						</detail>
+						<varbindings/>
+						<item
+						time="00:00.129"
+						level="Info"
+						category="Website"
+						errimg="images_UpdatePatient_20140923_143402\UpdatePatient_20140923_143402_c0ce1807_trace.jpg"
+						errthumb="images_UpdatePatient_20140923_143402\UpdatePatient_20140923_143402_c0ce1807_trace_thumb.jpg">
+							<message>
+								Opening web site 'https://neutron.plexia.local/emrwebtest3_modal/<br/>' with browser 'Chrome' in normal mode.
+							</message>
+							<metainfo
+							itemindex="0"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+							codeline="81"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:00.332"
+						level="Info"
+						category="Mouse"
+						errimg="images_UpdatePatient_20140923_143402\UpdatePatient_20140923_143402_b0039ad1_trace.jpg"
+						errthumb="images_UpdatePatient_20140923_143402\UpdatePatient_20140923_143402_b0039ad1_trace_thumb.jpg">
+							<message>
+								Mouse Left Click item 'PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName' at 42;10.
+							</message>
+							<metainfo
+							type="repoitem"
+							path="/dom[@domain='neutron.plexia.local']/?/?/iframe[@id='PlexiaMainFrame']//input[#'txtUserName']"
+							fullname="UpdatePatientRepository.PLEXIAEMRTest3Modal.PlexiaMainFrame.LoginPage.TxtUserName"
+							id="564a9280df994bf08e2ba336d07f8caf"
+							timeout="120000"
+							codefile="c:\Users\Ian\Documents\Ranorex\RanorexStudio Projects\UpdatePatient\UpdatePatient\adminIan.cs"
+							codeline="84"
+							itemindex="1"
+							loglvl="Info"/>
+						</item>
+						<item
+						time="00:08.776"
+						level="Error"
+						category="User"
+						errimg="images_UpdatePatient_20140923_143402\UpdatePatient_20140923_143402_a5787fde_trace.jpg"
+						errthumb="images_UpdatePatient_20140923_143402\UpdatePatient_20140923_143402_a5787fde_trace_thumb.jpg">
+							<message>
+								The test run has been aborted by the user.
+							</message>
+							<metainfo
+							loglvl="Error"/>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>
